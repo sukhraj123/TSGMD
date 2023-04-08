@@ -3005,11 +3005,16 @@ input, select, textarea {
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		background-color: #e2e2e2;
+		width: 70%;
+		margin: auto;
 	}
 
 	table {
 		margin: 0 0 2rem 0;
-		width: 100%;
+		width: 70%;
+		background-color: #e2e2e2;
+		margin: auto;
 	}
 
 		table tbody tr {
@@ -3019,7 +3024,7 @@ input, select, textarea {
 		}
 
 		table td {
-			padding: 0.75rem 0.75rem;
+			padding: 3 0.75rem ;
 		}
 
 		table th {
@@ -3028,8 +3033,8 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1.5;
-			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			
+			text-align: center;
 			text-transform: uppercase;
 		}
 
@@ -3037,6 +3042,7 @@ input, select, textarea {
 
 				table th {
 					font-size: 0.9rem;
+					width: 100%;
 				}
 
 			}
